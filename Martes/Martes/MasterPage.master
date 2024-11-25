@@ -1,0 +1,30 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Página sin título</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Maroon"
+            Text="Curso de Iso" Width="258px"></asp:Label><br />
+        <br />
+        <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Maroon"
+            Text="Estamos Trabajando en el Curso" Width="258px"></asp:Label><br />
+        <br />
+        <asp:Image ID="Image1" runat="server" Height="111px" ImageUrl="~/imagenes/images.jpg"
+            Width="128px" /><br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+        <br />
+        <asp:Label ID="Label3" runat="server" BorderStyle="Double" ForeColor="#00C000" Text="CENTRO DE COMPUTACION Y TELEMATICA 55 5000 2378"></asp:Label><br />
+        <asp:Label ID="lb_fecha" runat="server" Text="Label"></asp:Label></div>
+    </form>
+</body>
+</html>
